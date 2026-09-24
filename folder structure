@@ -5,7 +5,7 @@ sos-app/
 │   │   ├── Navbar.jsx
 │   │   ├── SOSButton.jsx
 │   │   ├── ContactForm.jsx
-│   │   ├── ContactList.jsx
+│   │   ├── ContactList.jsx 
 │   │   ├── NotificationToast.jsx
 │   │   ├── Recorder.jsx
 │   │   └── LiveMap.jsx
