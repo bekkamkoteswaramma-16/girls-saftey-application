@@ -12,7 +12,7 @@ export default function ContactForm({ setContacts }) {
   }
 
   return ( 
-    <div>
+    <div> 
       <input placeholder="Contact Name" value={name} onChange={e=>setName(e.target.value)} />
       <input placeholder="Phone Number" value={phone} onChange={e=>setPhone(e.target.value)} />
       <button onClick={addContact}>Add Contact</button>
