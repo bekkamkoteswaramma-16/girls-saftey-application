@@ -1,7 +1,7 @@
 export default function SOSButton({ onClick, active }) {
   return (
     <button 
-      onClick={onClick}
+      onClick={onClick  
       style={{
         width: '200px',
         height: '200px',
@@ -17,5 +17,5 @@ export default function SOSButton({ onClick, active }) {
     >
       {active ? 'ALERT ACTIVE' : 'SOS'}
     </button> 
-  )
+  )  
 }
