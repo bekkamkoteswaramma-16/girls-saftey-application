@@ -6,7 +6,7 @@ export default function ContactForm({ setContacts }) {
 
   const addContact = () => {
     if(name && phone) {
-      setContacts(prev => [...prev, {name, phone}])
+      setContacts(prev => [...prev, {name, phone}])    
       setName(""); setPhone("")
     }
   }
