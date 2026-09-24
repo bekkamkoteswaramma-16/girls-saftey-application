@@ -16,6 +16,6 @@ export default function SOSButton({ onClick, active }) {
       }}
     >
       {active ? 'ALERT ACTIVE' : 'SOS'}
-    </button>
+    </button> 
   )
 }
