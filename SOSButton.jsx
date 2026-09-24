@@ -6,7 +6,7 @@ export default function SOSButton({ onClick, active }) {
         width: '200px',
         height: '200px',
         borderRadius: '50%',
-        background: active ? 'green' : 'red',
+        background: active ? 'green' : 'red', 
         color: 'white',
         fontSize: '24px',
         fontWeight: 'bold',
