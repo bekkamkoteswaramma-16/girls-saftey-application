@@ -1,0 +1,27 @@
+sos-app/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── SOSButton.jsx
+│   │   ├── ContactForm.jsx
+│   │   ├── ContactList.jsx
+│   │   ├── NotificationToast.jsx
+│   │   ├── Recorder.jsx
+│   │   └── LiveMap.jsx
+│   │
+│   ├── pages/
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   └── Home.jsx        # Main dashboard after login
+│   │
+│   ├── services/
+│   │   ├── LocationService.js
+│   │   ├── SMSService.js
+│   │   └── CallService.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+└── README.md
