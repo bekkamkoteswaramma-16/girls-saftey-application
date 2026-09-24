@@ -11,7 +11,7 @@ export default function ContactForm({ setContacts }) {
     }
   }
 
-  return (
+  return ( 
     <div>
       <input placeholder="Contact Name" value={name} onChange={e=>setName(e.target.value)} />
       <input placeholder="Phone Number" value={phone} onChange={e=>setPhone(e.target.value)} />
